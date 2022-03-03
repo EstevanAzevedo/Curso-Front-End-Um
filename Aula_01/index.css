@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Smooch+Sans:wght@300;600&display=swap');
+
 * {
     box-sizing: border-box;
 
@@ -7,6 +9,9 @@
 }
 
 body {
+    align-content: center;
+    align-items: center;
+
     background-image: linear-gradient(
         to top right,
         rgba(102, 0, 102, 1),
@@ -15,9 +20,36 @@ body {
         rgba(153, 204, 255, 1)
     );
 
+    display: flex;
+
+    justify-content: center;
+    justify-items: center;
+
     height: 100vh;
 }
 
-/* --- CONFIGURAÇÃO PAPEL VIDRO --- */
+/* --- FONTES PARA O TABALHO --- */
+/*
 
+font-family: 'Oswald', sans-serif;
+font-width: 200;
+
+font-family: 'Smooch Sans', sans-serif;
+font-width: 300;
+font-width: 600;
+
+*/
+/* --- FIM DO DOCUMENTO DAS FONTES --- */
+
+/* --- CONFIGURAÇÃO PAPEL VIDRO --- */
+.papel-vidro {
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(204, 102, 0, 0.8);
+    border-radius: 50px 160px;
+    box-shadow: 2px 2px 20px 20px rgba(204, 102, 0, 1);
+
+    height: 700px;
+    width: 1600px;
+}
 /* --- FIM DA CONFIG --- */
