@@ -61,16 +61,41 @@ font-width: 600;
     padding: 15px;
 }
 
-h2 {
-    border-radius: 160px 15px;
+.header-text {
+    border-radius: 25px 180px 25px 25px;
     box-shadow: inset 2px 2px 20px 20px rgba(204, 102, 0, 1);
 
     font-family: 'Smooch Sans', sans-serif;
     font-size: 60px;
     font-weight: 600;
 
-    margin: 0px 150px;
+    margin: 0px 220px;
     
     padding: 15px;
 }
 /* --- FIM DA CONFIGURAÇÃO --- */
+
+/* --- CONFIGURAÇÃO DO CONTEÚDO --- */
+main {
+    align-content: center;
+    align-items: center;
+
+    display: flex;
+
+    justify-content: center;
+    justify-items: center;
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+/* --- FIM DA CONFIGURAÇÃO --- */
+
+.face {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 25px 180px 25px;
+    box-shadow: inset 1px 1px 15px 15px rgba(204, 102, 0, 1);
+
+    height: 555px;
+
+    width: 450px;
+}
