@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Smooch+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
 * {
     box-sizing: border-box;
@@ -22,24 +22,13 @@ body {
 
     display: flex;
 
+    font-family: 'Merriweather', serif;
+
     justify-content: center;
     justify-items: center;
 
     height: 100vh;
 }
-
-/* --- FONTES PARA O TABALHO --- */
-/*
-
-font-family: 'Oswald', sans-serif;
-font-width: 200;
-
-font-family: 'Smooch Sans', sans-serif;
-font-width: 300;
-font-width: 600;
-
-*/
-/* --- FIM DO DOCUMENTO DAS FONTES --- */
 
 /* --- CONFIGURAÇÃO PAPEL VIDRO --- */
 .papel-vidro {
@@ -62,14 +51,14 @@ font-width: 600;
 }
 
 .header-text {
-    border-radius: 25px 180px 25px 25px;
+    border-radius: 35px 180px;
     box-shadow: inset 2px 2px 20px 20px rgba(204, 102, 0, 1);
 
     font-family: 'Smooch Sans', sans-serif;
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 600;
 
-    margin: 0px 220px;
+    margin: 0px 60px;
     
     padding: 15px;
 }
