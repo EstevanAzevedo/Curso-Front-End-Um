@@ -43,9 +43,11 @@
 }
 
 .form {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 1);
+    background-clip: padding-box;
 
-    border: 8px solid #ccc;
+    border: 8px solid;
+    border-color: rgba(120, 120, 120, 0.7);
 
     float: right;
     
@@ -138,4 +140,28 @@
     text-align: center;
 
     width: 100%;
+}
+
+.container-list {
+    background-color: rgba(33, 35, 67, 0.7);
+
+    float: left;
+
+    height: 270px;
+
+    margin-top: 40px;
+
+    padding: 30px;
+
+    width: 619px;
+}
+
+.container-list ul {
+    list-style-position: inside;
+}
+
+.container-list ul li {
+    color: #fff;
+
+    margin-top: 18px;
 }
