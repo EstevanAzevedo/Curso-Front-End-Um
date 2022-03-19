@@ -165,3 +165,33 @@
 
     margin-top: 18px;
 }
+
+.container-2 {
+    background-color: rgba(221, 221, 221, 1);
+
+    padding: 40px 0px;
+
+    text-align: justify;
+}
+
+.container-2 h2 {
+    font-weight: normal;
+
+    margin: 20px 0px;
+
+    text-align: center;
+}
+
+.arrow {
+    background-image: url(../imagens/arrow.png);
+
+    height: 64px;
+
+    margin: 0 50%;
+    
+    position: relative;
+
+    top: 70px;
+
+    width: 64px;
+}
