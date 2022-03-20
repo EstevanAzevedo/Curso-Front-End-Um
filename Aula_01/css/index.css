@@ -219,3 +219,21 @@
 
     width: 33.333%;
 }
+
+.container-4 {
+    border-top: 4px solid #888888;
+
+    clear: both;
+
+    padding: 30px 0;
+}
+
+.footer {
+    color: #888888;
+
+    text-align: center;
+}
+
+.footer p {
+    padding: 10px;
+}
